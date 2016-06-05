@@ -1,0 +1,21 @@
+baseurl = "http://dogma-dart.github.io/"
+languageCode = "en-us"
+title = "Dogma Dart Libraries"
+theme = "hugo-project-homepage"
+
+[[menu.main]]
+  name = "Codegen"
+  identifier = "codegen"
+  weight = 1
+  url = "/codegen/overview/"
+
+[[menu.main]]
+  name = "Extending"
+  parent = "codegen"
+  identifier = "codegen-extending"
+  weight = 2
+  url = "codegen/extending/overview/"
+
+[Params]
+  skin = "null"
+  toc_header = "In this document"
